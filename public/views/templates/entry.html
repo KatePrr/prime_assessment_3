@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <h3>Was it a Hero or a Villain?</h3>    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-6 text-right">
+        <form>
+            <select ng-model="heroType" ng-options="hero as hero.label for hero in heroTypes track by hero.type">
+            </select>
+            <button class="btn btn-info" ng-click="powerList()">Enter</button>
+
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 text-right">
+        <label for="alias">Alias: </label>
+        <input type="text" placeholder="Alias" ng-model="alias" id="alias" /><br>
+
+        <label for="first_name">First Name: </label>
+        <input type="text" placeholder="first_name" ng-model="first_name" id="first_name" /><br>
+
+        <label for="last_name">Last Name: </label>
+        <input type="text" placeholder="last_name" ng-model="last_name" id="last_name" /><br>
+
+        <label for="city">City: </label>
+        <input type="text" placeholder="city" ng-model="city" id="city" /><br>
+
+        <label for="primary_power">Primary Power: </label>
+        <input type="text" placeholder="primary_power" ng-model="primary_power" id="primary_power" /><br>
+
+
+        <button class="btn btn-info" ng-click="saveHero()">Save Hero</button>
+        </form>
+    </div>
+
+</div>

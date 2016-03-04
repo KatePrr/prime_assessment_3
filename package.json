@@ -1,0 +1,20 @@
+{
+  "name": "assessment3",
+  "version": "1.0.0",
+  "description": "Assessment 3 (Angular and MongoDB) Description Instructions This assessment is intended to see how you are progressing with Angular, Mongo, Node, and Express. It is open-notes  and open-book. No talking is allowed for the duration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Kati Lueth",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.6"
+  }
+}
